@@ -16,10 +16,10 @@ export class ThumbnailItem extends Component {
             <div>
                 {isActive ?
                     <button onClick={changeImage}>
-                        <img className='m-1 opacity-20 object-contain' alt={thumbnailAltText} src={thumbnailUrl} />
+                        <img className='m-1 object-contain' alt={thumbnailAltText} src={thumbnailUrl} />
                     </button> :
                     <button onClick={changeImage}>
-                        <img className='m-1 object-contain' alt={thumbnailAltText} src={thumbnailUrl} />
+                        <img className='m-1 opacity-20 object-contain' alt={thumbnailAltText} src={thumbnailUrl} />
                     </button>
                 }
             </div>
